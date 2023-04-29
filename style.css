@@ -93,11 +93,11 @@ form input[id="prov"] {
         
     margin: 12px;
     padding: 0px;
+
 }
 
 form p {
     display: flex;
     line-height: 10px;
-    /* text-align: right; */
-    
+
 }

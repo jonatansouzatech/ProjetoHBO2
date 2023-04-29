@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBOMAX</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
 </head>
 <body>
+
     <header>
-        <img src="assets/imagens/image 8.svg">
-        <h3>Menu</h3>
-        <h3>Assinar</h3>
+
+        <img class="logo" src="assets/imagens/image 8.svg"><br>
+        <div>Menu</div>
+        <div>Assinar</div>
         <h1>Entrar</h1>
-        <h3>Você tem uma conta HBO Max?</h3>
+        <div>Você tem uma conta HBO Max?</div><br>
+    
     </header>
+
     <main>
+    
         <form action="" method="post">
-            <label>E-mail</label>
+    
+            <p>E-mail</p>
             <input type="email">
-            <label>Senha</label>
+    
+            <p>Senha</p>
             <input type="password">
+    
             <input type="submit" value="Entrar">
-            <p>Você acessa a HBO Max por um provedor<br>
-                de TV, de internet ou celular?</p>
-            <input type="submit" value="Entrar como provedor">
+    
+            <div id="textProv">Você acessa a HBO Max por um provedor<br>
+                de TV, de internet ou celular?</div>
+            <input id="prov" type="submit" value="Entrar como provedor">
+    
         </form>
+    
     </main>
     
 </body>
